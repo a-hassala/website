@@ -1,15 +1,47 @@
 p
 {
-    color: blue;
-    font-family: 'LearningCurveProRegular', Arial, serif;
+	color: blue;
+	/*font-family: 'LearningCurveProRegular', Arial, serif;*/
 }
 
 
+#navigation_lang{
+	text-align: right;
+	border-right: 1px blue solid;
+}
+
+a[href="index.php?lang=fr"]{
+	border-left: 1px blue solid;
+	border-top : 1px blue solid;
+	border-bottom : 1px blue solid;
+
+}
+
+
+
+
+#navigation{
+	text-align: center;
+	border: 1px pink solid;
+	background: #FFFF99 fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
-    font-family: 'LearningCurveProRegular';
-    src: url('Fonts/LearningCurve_OT-webfont.eot');
-    src: url('Fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/LearningCurve_OT-webfont.woff') format('woff'),
-         url('Fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
-         url('Fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+font-family: 'LearningCurveProRegular';
+src: url('Fonts/LearningCurve_OT-webfont.eot');
+src: url('Fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+url('Fonts/LearningCurve_OT-webfont.woff') format('woff'),
+url('Fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
+url('Fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
 }
