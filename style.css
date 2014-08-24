@@ -1,0 +1,15 @@
+p
+{
+    color: blue;
+    font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('Fonts/LearningCurve_OT-webfont.eot');
+    src: url('Fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/LearningCurve_OT-webfont.woff') format('woff'),
+         url('Fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('Fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
