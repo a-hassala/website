@@ -37,6 +37,10 @@
  		</table>
  	</nav>
 
+ 	<div id="Presentation">
+ 		<?php echo $presentation ; ?>
+ 	</div>
+
  </body>
 
  </html> 
