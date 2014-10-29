@@ -3,7 +3,6 @@
  <html>
  <head>
  	<meta charset="utf-8" />
- 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
  	<link rel="stylesheet" href="style.css" />
  	<title>HASSALA Anasse WebSite</title>
  </head>
@@ -11,36 +10,45 @@
 
 
  <body>
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-lg-push-11 col-lg-2">
 
- 				<div id="navigation_lang">
- 					<table>
- 						<tr><a href="index.php?lang=fr"><img src="Images/fr.png" height="14" width="20" alt="français"/></a></tr>
- 						<tr><span>   </span></tr>
- 						<tr><a href="index.php?lang=en"><img src="Images/uk.jpg" height="14" width="20" alt="english"/></a></tr>
- 						<tr><span>   </span></tr>
- 						<tr><a href="index.php?lang=es"><img src="Images/es.png" height="14" width="20" alt="español"/></a></tr>
- 					</table>
- 				</div>
+ 	<div class="left-container">
+ 		<nav class="navigation">
+ 			<ul>
+ 				<li><a href="about.php"> <?php echo $about ; ?></a></li>
+ 				<li><a href="projects.php"> <?php echo $projects ; ?></a></li>
+ 				<li><a href="contacts.php"> <?php echo $contacts ; ?></a></li>
+ 				<li><a href="cv.php"> <?php echo $cv ?> </a></li>
+ 			</ul>
+ 		</nav>
+ 	</div>
+
+
+ 	<div class="right-container">
+
+ 		<div class="header">
+ 			<h1> HASSALA Anasse</h1>
+ 			<div class="language">
+ 				<a href="index.php?lang=fr"><img alt="Drapeau de la France" src="http://www.drapeauxdespays.fr/data/flags/small/fr.png" width="120" height="80" /></a>
+ 				<a href="index.php?lang=en"><img alt="Drapeau du Royaume-Uni" src="http://www.drapeauxdespays.fr/data/flags/small/gb.png" width="160" height="80" /></a>
+ 				<a href="index.php?lang=es"><img alt="Drapeau de l'Espagne" src="http://www.drapeauxdespays.fr/data/flags/small/es.png" width="120" height="80" /></a>
  			</div>
+ 		</div>
+ 		<div class="presentation">
+ 			<?php echo $presentation ; ?>
  		</div>
  	</div>
 
- 	<nav id="navigation">
- 		<table>
- 			<tr><a href="about.php"> <?php echo $about ; ?> |</a></tr>
- 			<tr><a href="projects.php"> <?php echo $projects ; ?> |</a></tr>
- 			<tr><a href="contacts.php"> <?php echo $contacts ; ?> |</a></tr>
- 			<tr><a href="cv.php"> <?php echo $cv ?> </a></tr>
- 		</table>
- 	</nav>
+ </div>
 
- 	<div id="Presentation">
- 		<?php echo $presentation ; ?>
- 	</div>
 
- </body>
 
- </html> 
+
+
+
+
+
+
+
+</body>
+
+</html> 

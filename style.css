@@ -1,52 +1,49 @@
-body {
-  padding-top: 10px;
-}
-[class*="col-"], footer {
-  background-color: lightblue;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
-  text-align: center;
-}
 
-/*p
-{
-	color: blue;
-	font-family: 'LearningCurveProRegular', Arial, serif;}*/
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+        padding: 0;
+        border: 0;
+        margin: 0;
+      }
 
 
 
-#navigation_lang{
-	text-align: right;
-
-}
-
-a[href="index.php?lang=fr"]{
-	border-left: 1px blue solid;
-	border-top : 1px blue solid;
-	border-bottom : 1px blue solid;
-
+h1 {
+	text-align : center;
+	color : pink;
 }
 
 
+ul, ol {
+	margin-left :2px ;
+}
+
+p {
+	margin-left : 10px;
+	padding-bottom : 20px;
+	margin-top : 20px;
+}
 
 
-#navigation{
-	text-align: center;
-	border: 1px pink solid;
-	background: #FFFF99 fixed;
+.left-container {
+	width : 25%;
+	background-color: purple;
+	display : inline-block;
+}
+
+
+.right-container{
+	width : 74%;
+	border : 1px solid black;
+	margin : 0 0 0 1px;
+	display : inline-block;
 }
 
 
 
-
-
-
-
-
-
-
-
+.presentation img {
+	float : left;
+	margin-right : 20px;
+}
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
 font-family: 'LearningCurveProRegular';
