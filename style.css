@@ -1,11 +1,25 @@
+* {
+margin: 0;
+padding: 0;
+list-style-type: none
+}
 
-html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-        padding: 0;
-        border: 0;
-        margin: 0;
-      }
+
+[img src="Images/HA.png"]{
+	background-color: #2e1d14;
+	margin-top : 2em;
+	height: 12em;
+	width : 7em;
+
+}
 
 
+a:link {
+    text-decoration: none;
+}
+
+
+/*
 
 h1 {
 	text-align : center;
@@ -45,11 +59,121 @@ p {
 	margin-right : 20px;
 }
 
-@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular
 font-family: 'LearningCurveProRegular';
 src: url('Fonts/LearningCurve_OT-webfont.eot');
 src: url('Fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
 url('Fonts/LearningCurve_OT-webfont.woff') format('woff'),
 url('Fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
 url('Fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+} */
+
+
+[class*="col-"], footer {
+line-height: 40px;
+text-align: center;
 }
+
+
+
+.signature {
+	background-color: #2e1d14;
+
+}
+
+
+.presentation {
+	background-color: #f4efed;
+}
+
+.presentation img {
+	float : left;
+	margin-right : 20px;
+}
+
+
+.presentation h1 {
+	padding : 0.7em 0 0 0.7em;
+	font-weight: 900;
+	text-align: left;
+}
+
+.nom {
+	text-align:left;
+
+	border-bottom : 2px solid green;
+}
+
+
+.general {
+	background-color: #f4efed;
+	margin-top : 5em;
+}
+
+.minet { 
+	background-color: #f4efed;
+	margin-top : 1em;
+	}
+
+li  {
+	font-size: 1.4em;
+	padding : 0.2em 1em 0.2em 1em;
+	margin : 0 0 0 2em;
+	text-align : center;
+	line-height: 40px;
+}
+
+[class="nav-about"] {
+	margin: 1em 0  0 2em ;
+}
+
+.nav-about a {
+	color:#f4efed;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 0 1em 0 1em;
+}
+
+.nav-projects a {
+	color:#f4efed;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 0 2.2em 0 2.2em;
+}
+
+
+.nav-contacts a {
+	color:#f4efed;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 0 1.8em 0 1.8em;
+}
+
+
+
+.nav-cv a {
+	color:#f4efed;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 0 3em 0 3em;
+}
+
+
+a:hover {
+    border-color: #46c66a;
+}
+
+
+
+
+footer li {
+	margin : 3em 0.5em 2em 0em;
+	padding : 0 0 0 0;
+	display : inline-block;
+}
+
+
+
+[img src="Images/linkedin.png"]{
+	height: 1em;
+	width : 1em;

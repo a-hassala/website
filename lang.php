@@ -70,7 +70,7 @@ else{
 
 	$presentation=
 
-"<p class=\"general\"><img src=\"Images/me.png\">	Étudiant en 2em année du cycle ingénieur à Télécom SudParis, grande école d'ingénieur française spécialisée dans les systèmes d'informations,
+"<p class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis, grande école d'ingénieur française spécialisée dans les systèmes d'informations,
 après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée Saint Louis à Paris (VI).	Je porte un grand intérêt pour les sciences informatiques et plus particulièrement à la sécurité des systèmes d'informations, 
 un domaine qui fait de la voie d'approffondissement SSR (Sécurité des systèmes et des réseaux) de Télécom SudParis mon premier voeu de poursuite
 de mon cursus ingénieur </p>
