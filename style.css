@@ -86,7 +86,7 @@ text-align: center;
 
 .presentation img {
 	float : left;
-	margin : 5em 1em 0.3em 1em;
+	margin : 2em 1em 0.3em 1em;
 	height : 15em;
 	width  : 17em; 
 }
@@ -95,7 +95,14 @@ text-align: center;
 .presentation h1 {
 	padding : 0.2em 0 0 0.7em;
 	text-align: left;
-	margin : 1em 0 0 0;
+	margin : 0 0 0 0;
+	font-size : 2.5em;
+	font-family: Raavi;
+	color:#2e1d14;
+}
+
+.subtitle {
+	padding-top : 0.2em;
 }
 
 
@@ -114,12 +121,12 @@ text-align: center;
 
 .prenom {
 	font-weight: 400;
-	padding: 0 14.4em 0 0;
+	padding: 0 13em 0 0;
 }
 
 .general {
 	background-color: #f4efed;
-	margin : 4em 0 6em 1em;
+	margin : 2em 0 6em 1em;
 	text-align : left;
 	font-family: Raavi;
 	color : #2e1d14;
@@ -129,11 +136,12 @@ text-align: center;
 
 .minet { 
 	background-color: #f4efed;
-	margin : 2em 0 21em 0 ;
+	margin : 2em 0 21em 1em ;
 	text-align: left;
 	font-family: Raavi;
 	color : #2e1d14;
 	font-weight: 600;
+	line-height: 2em
 	
 	}
 

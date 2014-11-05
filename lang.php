@@ -24,6 +24,7 @@ else{
  	/*---------------Text de présentation---------------*/
 
  	$presentation = " ";
+ 	$subtitle = " ";
 
 
  	break;
@@ -46,6 +47,7 @@ else{
  	/*---------------Text de présentation---------------*/
 
  	$presentation="";
+ 	$subtitle = "";
  	break;
 
 
@@ -68,22 +70,27 @@ else{
 
 	/*---------------Text de présentation---------------*/
 
-	$presentation=
+	$presentation =
 
 "<p class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis, grande école d'ingénieur française spécialisée
  dans les systèmes d'informations.<br/>
-Après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée Saint Louis à Paris (VI). 
+J'ai intégré l'école après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée Saint Louis à Paris (VI) où j'ai suivi un cursus
+en spécialité informatique.<br/>
 Je porte un grand intérêt pour les sciences informatiques et plus particulièrement à la sécurité des systèmes d'informations, 
 un domaine qui fait de la voie d'approffondissement SSR (Sécurité des systèmes et des réseaux) de Télécom SudParis mon
 premier voeu de poursuite
 de mon cursus ingénieur</p>
 
 
-<p class=\"minet\">	Je suis<span class=\"trait-text\"> également président de l'association <a href=\"https://minet.net\">MiNET</a>,
-l'organisme responsable du déploiement, de la gestion</span> et de l'entretien du réseau
+<p class=\"minet\">	Je suis égal<span class=\"trait-text\">ement président de l'association <a href=\"https://minet.net\">MiNET</a>,
+l'organisme responsable du déploiement, de la</span> gestion et de l'entretien du réseau
 de l'ensemble des résidences étudiantes et des locaux associatifs du campus mis à disposition par la
 <a href=\"https://maisel.tem-tsp.eu/fr/\">Maisel SudParis</a>
 </p>";
+
+	$subtitle = "Élève ingénieur en Technologies de l'information ";
+ 	
+
  	break;
 
  }
