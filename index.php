@@ -22,7 +22,7 @@
 
 
 
- 							<li class="nav-about"><a href="about.php"> <?php echo $about ; ?></a></li>
+ 							<li class="nav-about"><a href="index.php"> <?php echo $about ; ?></a></li>
 
 
  							<li class="nav-projects"><a href="projects.php"> <?php echo $projects ; ?></a></li>
@@ -52,7 +52,7 @@
 
 
  			<div class="col-md-9 presentation">
- 				<h1>HAS<span class="nom">SALA <span class="prenom">Anasse</span></span></h1>
+ 				<h1><span class="has">HAS</span><span class="nom">SALA <span class="prenom">Anasse</span> </span></h1>
 
  				<?php echo $presentation ?>
  			</div>

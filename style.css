@@ -94,16 +94,24 @@ text-align: center;
 
 .presentation h1 {
 	padding : 0.7em 0 0 0.7em;
-	font-weight: 900;
 	text-align: left;
+}
+
+
+.has {
+	font-weight: 900;
 }
 
 .nom {
 	text-align:left;
-
+	font-weight: 900;
 	border-bottom : 2px solid green;
 }
 
+.prenom {
+	font-weight: 400;
+	padding: 0 14.4em 0 0;
+}
 
 .general {
 	background-color: #f4efed;
@@ -112,7 +120,7 @@ text-align: center;
 
 .minet { 
 	background-color: #f4efed;
-	margin-top : 1em;
+	margin : 1em 0 21em 0 ;
 	}
 
 li  {
@@ -167,7 +175,7 @@ a:hover {
 
 
 footer li {
-	margin : 3em 0.5em 2em 0em;
+	margin : 3em 0.5em 100% 0em;
 	padding : 0 0 0 0;
 	display : inline-block;
 }
