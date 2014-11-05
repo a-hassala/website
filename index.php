@@ -53,7 +53,7 @@
 
  			<div class="col-md-9 presentation">
  				<h1><span class="has">HAS</span><span class="nom">SALA <span class="prenom">Anasse</span> </span></h1>
-
+ 				<img src="Images/me.png" alt="Photo perso">
  				<?php echo $presentation ?>
  			</div>
  		</div>
