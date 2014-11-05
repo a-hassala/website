@@ -1,7 +1,7 @@
 * {
 margin: 0;
 padding: 0;
-list-style-type: none
+list-style-type: none;
 }
 
 
@@ -84,13 +84,6 @@ text-align: center;
 	background-color: #f4efed;
 }
 
-.presentation img {
-	float : left;
-	margin : 2em 1em 0.3em 1em;
-	height : 15em;
-	width  : 17em; 
-}
-
 
 .presentation h1 {
 	padding : 0.2em 0 0 0.7em;
@@ -100,12 +93,6 @@ text-align: center;
 	font-family: Raavi;
 	color:#2e1d14;
 }
-
-.subtitle {
-	padding-top : 0.2em;
-}
-
-
 
 
 .has {
@@ -123,27 +110,6 @@ text-align: center;
 	font-weight: 400;
 	padding: 0 13em 0 0;
 }
-
-.general {
-	background-color: #f4efed;
-	margin : 2em 0 4em 1em;
-	text-align : left;
-	font-family: Raavi;
-	color : #2e1d14;
-	font-weight: 600;
-	line-height: 2em
-}
-
-.minet { 
-	background-color: #f4efed;
-	margin : 2em 0 21em 1em ;
-	text-align: left;
-	font-family: Raavi;
-	color : #2e1d14;
-	font-weight: 600;
-	line-height: 2em
-	
-	}
 
 
 .trait-text {
@@ -165,14 +131,14 @@ li  {
 
 .nav-about a {
 	color:#f4efed;
-	border: 2px solid #2e1d14;
+	border: 2px solid #271710;
 	border-radius: 6px;
 	padding: 0 1em 0 1em;
 }
 
 .nav-projects a {
 	color:#f4efed;
-	border: 2px solid #271710;
+	border: 2px solid #2e1d14;
 	border-radius: 6px;
 	padding: 0 2.2em 0 2.2em;
 }
@@ -213,3 +179,18 @@ footer li {
 [img src="Images/linkedin.png"]{
 	height: 1em;
 	width : 1em;
+
+}
+
+.projects h2 {
+	margin : 1em 0 1em 0;
+}
+
+.projects li {
+	text-align : left;
+	margin : 0 0 0 1em;
+	padding : 0 0 0 0;
+	list-style-type: square
+
+
+}

@@ -4,7 +4,7 @@
  <head>
  	<meta charset="utf-8" />
  	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
- 	<link rel="stylesheet" href="style.css" />
+ 	<link rel="stylesheet" href="projects-style.css" />
  	<title>HASSALA Anasse WebSite</title>
  </head>
 
@@ -27,8 +27,10 @@
 
  							<li class="nav-projects"><a href="projects.php"> <?php echo $projects ; ?></a></li>
  							
+
  							<li class="nav-cv"><a href="cv.php"> <?php echo $cv ?> </a></li>
 
+ 							
  							<li class="nav-contacts"><a href="contacts.php"> <?php echo $contacts ; ?></a></li>
  							
 
@@ -53,9 +55,7 @@
 
  			<div class="col-md-9 presentation">
  				<h1><span class="has">HAS</span><span class="nom">SALA <span class="prenom">Anasse</span> </span></h1>
- 				<h2 class="subtitle"><?php echo $subtitle ?> </h2>
- 				<img src="Images/me.png" alt="Photo perso">
- 				<?php echo $presentation ?>
+ 				<div class="projects"><?php echo $projects_content ?></div>
  			</div>
  		</div>
 
