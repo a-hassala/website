@@ -1,3 +1,8 @@
+.container {
+	width : 100%;
+	overflow:hidden;
+	display : inline-block;
+}
 * {
 margin: 0;
 padding: 0;
@@ -75,25 +80,34 @@ text-align: center;
 
 
 .signature {
+	float:left;
 	background-color: #2e1d14;
+	padding-top : 1em;
+	width:25%;
+	height:100%;
 
 }
 
 
 .presentation {
+	float:right;
+	width:75%;
 	background-color: #f4efed;
+	overflow:hidden;
+	height:100%;
+	
 }
 
 .presentation img {
 	float : left;
 	margin : 2em 1em 0.3em 1em;
-	height : 15em;
-	width  : 17em; 
+	height : 12em;
+	width  : 13em; 
 }
 
 
 .presentation h1 {
-	padding : 0.2em 0 0 0.7em;
+	padding : 0.5em 0 0 0.7em;
 	text-align: left;
 	margin : 0 0 0 0;
 	font-size : 2.5em;
@@ -116,39 +130,49 @@ text-align: center;
 	text-align:left;
 	font-weight: 900;
 	padding-bottom : 0.4em;
-	border-bottom : 2px solid #46c66a;
 }
 
 .prenom {
 	font-weight: 400;
-	padding: 0 13em 0 0;
+	padding: 0 0 0 0;
+}
+
+.trait-titre {
+	float:right;
+	margin-top : 1em;
+	width : 90%;
+	border-bottom : 2px solid #46c66a;
 }
 
 .general {
 	background-color: #f4efed;
-	margin : 2em 0 4em 1em;
-	text-align : left;
+	margin : 2em 0 2em 1em;
+	text-align : justify;
 	font-family: Raavi;
 	color : #2e1d14;
 	font-weight: 600;
-	line-height: 2em
+	line-height: 2em;
+	font-size : 1.1em;
 }
 
 .minet { 
 	background-color: #f4efed;
-	margin : 2em 0 21em 1em ;
-	text-align: left;
+	margin : 1em 0 4.7em 1em ;
+	text-align: justify;
 	font-family: Raavi;
 	color : #2e1d14;
 	font-weight: 600;
-	line-height: 2em
+	line-height: 2em;
+	font-size : 1.1em;
 	
 	}
 
 
 .trait-text {
-	border-top : 2px solid #46c66a;
-	padding-top : 2em;
+	float:right;
+	margin : 0 0 0 0;
+	width : 90%;
+	border-bottom : 2px solid #46c66a;
 }
 
 li  {
@@ -164,8 +188,8 @@ li  {
 }
 
 .nav-about a {
-	color:#f4efed;
-	border: 2px solid #2e1d14;
+	color:#916C47;
+	border: 2px solid #271710;
 	border-radius: 6px;
 	padding: 0 1em 0 1em;
 }
@@ -203,7 +227,7 @@ a:hover {
 
 
 footer li {
-	margin : 3em 0.5em 100% 0em;
+	margin : 4em 0.5em 3em 0em;
 	padding : 0 0 0 0;
 	display : inline-block;
 }

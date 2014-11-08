@@ -52,7 +52,8 @@
 
 
  			<div class="col-md-9 presentation">
- 				<h1><span class="has">HAS</span><span class="nom">SALA <span class="prenom">Anasse</span> </span></h1>
+ 				<h1><span class="nom">HASSALA</span> <span class="prenom">Anasse</span></h1>
+ 				<div class="trait-titre"> </div>
  				<h2 class="subtitle"><?php echo $subtitle ?> </h2>
  				<img src="Images/me.png" alt="Photo perso">
  				<?php echo $presentation ?>

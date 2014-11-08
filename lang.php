@@ -72,7 +72,7 @@ else{
 
 	$presentation =
 
-"<p class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis, grande école d'ingénieur française spécialisée
+"<p align=\"right\" class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis, grande école d'ingénieur française spécialisée
  dans les systèmes d'informations.<br/>
 J'ai intégré l'école après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée Saint Louis à Paris (VI) où j'ai suivi un cursus
 en spécialité informatique.<br/>
@@ -81,9 +81,10 @@ un domaine qui fait de la voie d'approffondissement SSR (Sécurité des système
 premier voeu de poursuite
 de mon cursus ingénieur</p>
 
+<div class=\"trait-text\"></div><br/>
 
-<p class=\"minet\">	Je suis égal<span class=\"trait-text\">ement président de l'association <a href=\"https://minet.net\">MiNET</a>,
-l'organisme responsable du déploiement, de la</span> gestion et de l'entretien du réseau internet
+<p align=\"justify\" class=\"minet\">	Je suis également président de l'association <a href=\"https://minet.net\">MiNET</a>,
+l'organisme responsable du déploiement, de la gestion et de l'entretien du réseau internet
 de l'ensemble des résidences étudiantes et des locaux associatifs du campus mis à disposition par la
 <a href=\"https://maisel.tem-tsp.eu/fr/\">Maisel SudParis</a>. <br/>
 Enfin, je suis expert Technique à <a href=\"http://sprint-je.com/\"> Sprint junior entreprise </a> , la junior entreprise des Écoles
