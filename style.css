@@ -152,7 +152,7 @@ text-align: center;
 	color : #2e1d14;
 	font-weight: 600;
 	line-height: 2em;
-	font-size : 1.1em;
+	font-size : 130%;
 }
 
 .minet { 
@@ -163,7 +163,7 @@ text-align: center;
 	color : #2e1d14;
 	font-weight: 600;
 	line-height: 2em;
-	font-size : 1.1em;
+	font-size : 130%;
 	
 	}
 
@@ -176,17 +176,19 @@ text-align: center;
 }
 
 li  {
-	font-size: 1.4em;
+	font-size: 170%	;
 	padding : 0.2em 1em 0.2em 1em;
 	margin : 0 0 0 2em;
 	text-align : center;
 	line-height: 40px;
+	display : inline-block; 
 }
 
-[class="nav-about"] {
-	margin: 1em 0  0 2em ;
-}
 
+
+/*.nav-about {
+	margin : 1em 0 1em 3em;
+}
 .nav-about a {
 	color:#916C47;
 	border: 2px solid #271710;
@@ -194,6 +196,9 @@ li  {
 	padding: 0 1em 0 1em;
 }
 
+.nav-projects {
+	margin : 40% 0 40% 130%;
+}
 .nav-projects a {
 	color:#f4efed;
 	border: 2px solid #271710;
@@ -202,6 +207,9 @@ li  {
 }
 
 
+.nav-contacts {
+	margin : 40% 0 40% 130%;
+}
 .nav-contacts a {
 	color:#f4efed;
 	border: 2px solid #271710;
@@ -210,7 +218,9 @@ li  {
 }
 
 
-
+.nav-cv {
+	margin : 40% 0 40% 130%;
+}
 .nav-cv a {
 	color:#f4efed;
 	border: 2px solid #271710;
@@ -218,7 +228,7 @@ li  {
 	padding: 0 3em 0 3em;
 }
 
-
+*/
 a:hover {
     border-color: #46c66a;
 }
