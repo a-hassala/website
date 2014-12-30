@@ -7,12 +7,14 @@ if (isset($_GET['lang'])){
 
 }
 
+if(!isset($_POST['human'])){
+
 $a = mt_rand(0,17);
 $b = mt_rand(5,10);
-
 $_SESSION['a']=$a;
 $_SESSION['b']=$b;
 
+}
 include_once 'header.php';
 include_once 'lang.php';
 ?>
