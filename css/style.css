@@ -1,0 +1,41 @@
+#nav-lang {
+	position : absolute;
+	top : 1em;
+	right : 1em;
+	z-index: 1
+}
+
+
+
+#nav-lang  img{
+
+	height : 3em;
+	width : 3em;
+	padding-top : 0;
+}
+
+
+#bitbucket img {
+
+	height : 5em;
+	background-color: #f4efed;
+}
+
+.projets {
+
+	text-align : justify;
+    font-family: Raavi;
+    color : #2e1d14;
+    font-weight: 600;
+    line-height: 2em;
+    font-size : 130%;
+}
+
+.projets h3 {
+	text-align : justify;
+    font-family: Raavi;
+    color : #2e1d14;
+    font-weight: 800;
+    line-height: 2em;
+    font-size : 150%;
+}

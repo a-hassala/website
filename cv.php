@@ -26,7 +26,7 @@ include_once 'header.php';
           <div class="col-lg-12">
             <h1><span class="nom"><?php echo $my; ?></span> <span class="prenom"><?php echo $project; ?></span></h1>
             <div class="projets">
-            <?php echo $projects_content ?>
+            <?php// echo $projects_content ?>
             </div>
             <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><?php echo $toggle; ?></a>
           </div>

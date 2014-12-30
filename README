@@ -1,23 +1,22 @@
-Ceci est le projet de création de mon site web personnel. Il s'agit de fournir une présentation de ma personne ainsi que toutes la documentation nécessaire pour référencer mes travaux et mon expérience personnelle.
+#My Personal Website Project#
 
-Mais il s'agit aussi (et surtout) d'une occasion de tester des technologies de développement et de déploiement que je n'ai pas l'occasion d'utiliser dans un environnement de développement au cours des autres projets que je suis amené à réaliser.
+##Presentation##
+
+Project intended to have some fun (of course) but mainly to build a quick presentation of me and references to my work.
+
+It's also a chance to give a try to some developpement and web technologies given the freedom of the project.
+
+## Licensing ##
+
+Source code and all ressources are freely accessible under the  GPL(v3) license.
 
 
+## Multilingual Support ##
 
-
-
-Le code source ainsi que toutes les ressources du site sont disponibles librement sous licence GPL(v3), ils peuvent donc être consultés, réutilisés et modifiés en toute liberté.
-
-
-
-
-TODO :
-
-	Mise en place de BOOTSTRAP
-	Intégration de flux RSS et Twitter
-
+==========In progress....
 
 
 
+##**Contribution##
 
-HASSALA Anasse
+Feel free to clone, fork and submit pull requests.
