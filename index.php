@@ -6,6 +6,12 @@ if (isset($_GET['lang'])){
 
 }
 
+$a = mt_rand(0,17);
+$b = mt_rand(5,10);
+
+$_SESSION['a']=$a;
+$_SESSION['b']=$b;
+
 include("lang.php");
 
 include_once 'header.php';
@@ -24,7 +30,7 @@ include_once 'header.php';
         <div class="container-fluid">
             <div class="row">
                <div class="col-lg-12">
-                  <h1><span class="nom">HASSALA</span> <span class="prenom">Anasse</span></h1>
+                  <h1><span class="nom">HASSALA </span> <span class="prenom"> Anasse</span></h1>
                   <div class="trait-titre"> </div>
                   <h2 class="subtitle"><?php echo $subtitle ?> </h2>
                   <img id="moi" src="Images/me.png" alt="Photo perso">

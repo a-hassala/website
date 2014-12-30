@@ -18,12 +18,16 @@ src: url('Fonts/raavi.ttf');
     margin: 3% 5% 2% 5%;
 }
 
-.nom {
+html body h1 {
+    text-align: left;
+}
+
+html body .nom {
     font-family: Raavi;
     color : #2e1d14;
     font-weight: 600;
     line-height: 2em;
-    font-size: 1.2em;
+    font-size: 3em;
 }
 
 
@@ -32,7 +36,7 @@ src: url('Fonts/raavi.ttf');
     color : #2e1d14;
     font-weight: 500;
     line-height: 2em;
-    font-size: 1.1em;
+    font-size: 2.7em;
 }
 
 
@@ -133,6 +137,7 @@ src: url('Fonts/raavi.ttf');
 
 
 .sidebar-nav li {
+    border : none;
     text-indent: 5px;
     line-height: 40px;
     margin :5% 0 0 20%;

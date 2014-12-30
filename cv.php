@@ -2,9 +2,16 @@
 session_start();
 
 if (isset($_GET['lang'])){
-  $_SESSION['lang']=strip_tags($_GET['lang']);
+    $_SESSION['lang']=strip_tags($_GET['lang']);
 
 }
+
+
+$a = mt_rand(0,17);
+$b = mt_rand(5,10);
+
+$_SESSION['a']=$a;
+$_SESSION['b']=$b;
 
 include("lang.php");
 
@@ -13,32 +20,30 @@ include_once 'header.php';
 
 <body>
 
-  <div id="wrapper">
+   <div id="wrapper">
 
-    <?php include_once 'sidebar.php'; ?>
-    <!-- /#sidebar-wrapper -->
+      <?php include_once 'sidebar.php'; ?>
+      <!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-      <nav id="nav-lang"><?php include_once 'nav-lang.php';?></nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1><span class="nom"><?php echo $my; ?></span> <span class="prenom"><?php echo $project; ?></span></h1>
-            <div class="projets">
-            <?php// echo $projects_content ?>
-            </div>
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><?php echo $toggle; ?></a>
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav id="nav-lang"><?php include_once 'nav-lang.php';?></nav>
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <?php include_once 'resume.php'; ?>
+                  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><?php echo $toggle; ?></a>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-    <!-- /#page-content-wrapper -->
-
   </div>
-  <!-- /#wrapper -->
+  <!-- /#page-content-wrapper -->
 
-  <script src="js/jquery.js"></script>
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
@@ -52,4 +57,5 @@ include_once 'header.php';
 </script>
 
 </body>
+
 </html>

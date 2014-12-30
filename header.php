@@ -15,6 +15,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
 	<link href="css/simple-sidebar.css" rel="stylesheet">
 
 	<link href="css/style.css" rel="stylesheet">

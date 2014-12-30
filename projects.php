@@ -6,6 +6,12 @@ if (isset($_GET['lang'])){
 
 }
 
+$a = mt_rand(0,17);
+$b = mt_rand(5,10);
+
+$_SESSION['a']=$a;
+$_SESSION['b']=$b;
+
 include("lang.php");
 
 include_once 'header.php';
@@ -24,7 +30,8 @@ include_once 'header.php';
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <h1><span class="nom"><?php echo $my; ?></span> <span class="prenom"><?php echo $project; ?></span></h1>
+          <h1><span class="nom">HASSALA </span> <span class="prenom"> Anasse</span></h1>
+            <h2 class="subtitle"><?php echo $my. ' '. $project; ?></h2>
             <div class="projets">
             <?php echo $projects_content ?>
             </div>
