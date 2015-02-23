@@ -2,7 +2,7 @@
 
 ##Presentation##
 
-Project intended to have some fun (of course) but mainly to build a quick presentation of me and references to my work.
+Project intended to have some fun (of course) but mainly to build a quick presentation of myself and references to my work.
 
 It's also a chance to give a try to some developpement and web technologies given the freedom of the project.
 
@@ -13,7 +13,7 @@ Source code and all ressources are freely accessible under the  GPL(v3) license.
 
 ## Multilingual Support ##
 
-==========In progress....
+Supports English and French
 
 
 
