@@ -13,7 +13,9 @@ Source code and all ressources are freely accessible under the  GPL(v3) license.
 
 ## Multilingual Support ##
 
-Supports English and French
+Supports : 
+* English
+* French
 
 
 
