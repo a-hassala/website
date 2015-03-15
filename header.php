@@ -8,6 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Site web de Anasse HASSALA, Élève ingénieur en sécurité des systèmes d'information">
 	<meta name="author" content="HASSALA Anasse">
+	<meta name="keywords" content="Anasse, HASSALA, anasse, hassala, cv, développement,
+	développeur, web, ruby, rails, php, c, c++, SI, sécurité, réseau, MiNET," />
+	<meta name="robots" content="index, follow" />
 
 	<title>Anasse HASSALA</title>
 
