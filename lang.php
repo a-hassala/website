@@ -267,7 +267,7 @@ else if (!isset($_SESSION['lang'])) {
 
  	$presentation =
 
- 	"<p align=\"right\" class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis,
+ 	"<p class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis,
  	grande école d'ingénieur française spécialisée dans les systèmes d'informations.<br/>
  	J'ai intégré l'école après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée
  	Saint Louis à Paris (VI) où j'ai suivi un cursus en spécialité informatique.<br/>
@@ -278,7 +278,7 @@ else if (!isset($_SESSION['lang'])) {
 
  	<div class=\"trait-text\"></div><br/>
 
- 	<p align=\"justify\" class=\"minet\">	<span class=\"premiere-ligne\">Je</span> suis également
+ 	<p class=\"minet\">	<span class=\"premiere-ligne\">Je</span> suis également
  		président de l'association <a href=\"https://minet.net\">MiNET</a>, l'organisme responsable
  		du déploiement, de la gestion et de l'entretien du réseau internet
  		de l'ensemble des résidences étudiantes et des locaux associatifs du campus mis à disposition par la
