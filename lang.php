@@ -8,7 +8,7 @@ if (isset($_GET['lang'])){
 else if (!isset($_SESSION['lang'])) {
  	$_SESSION['lang']='fr'; // le français est la langue par défaut
  }
- 
+
  //echo 'la variable de session vaut ' . $_SESSION['lang'] ;
 
  $lang=$_SESSION['lang'];
@@ -16,7 +16,7 @@ else if (!isset($_SESSION['lang'])) {
  switch($lang){ // On charges les variables de text en fonction de la langue
 
 
- 	
+
  	/*-----------------------------------------ANGLAIS------------------------------------------------------*/
  	case('en'):
 
@@ -31,7 +31,7 @@ else if (!isset($_SESSION['lang'])) {
 
  	/*---------------Text de présentation---------------*/
 
- 	$presentation="<p align=\"right\" class=\"general\">Second year student at the French
+ 	$presentation="<p class=\"general\">Second year student at the French
  	IT top graduate engineering school Telecom SudParis.<br/>
  	I entered the school after 2 years of preparatory course for engineering school in MP*
  	section at lycée Saint Louis in Paris (VI) - amid top 10
@@ -42,10 +42,10 @@ else if (!isset($_SESSION['lang'])) {
 
  	<div class=\"trait-text\"></div><br/>
 
- 	<p align=\"justify\" class=\"minet\">	<span class=\"premiere-ligne\">I</span> am also the président of
+ 	<p class=\"minet\">	<span class=\"premiere-ligne\">I</span> am also the président of
  	<a href=\"https://minet.net\">MiNET</a> Association, ISP of Telecom SudParis student apartments directed by the
  	<a href=\"https://maisel.tem-tsp.eu/fr/\">Maisel SudParis</a>. <br/>
- 	Finally, I am one of the technical experts in <a href=\"http://sprint-je.com/\"> Sprint junior entreprise </a> 
+ 	Finally, I am one of the technical experts in <a href=\"http://sprint-je.com/\"> Sprint junior entreprise </a>
  	where I handle technical aspects of our business proposals.
  	</p>";
 
@@ -67,11 +67,11 @@ else if (!isset($_SESSION['lang'])) {
  	$project = 'Projects';
  	$projects_content = "
  	<p>
- 	My public projects are available here  : 
+ 	My public projects are available here  :
  	<a id='bitbucket' href=\"http://bitbucket.org/a_hassala/\" target=\"_blank\">
  		<img src='Images/bitbucket.png' alt='Bitbucket'>
  	</a>
- 	
+
 
  	<h3> Refactoring a captive portal source code : </h3>
  	<ul>
@@ -83,14 +83,14 @@ else if (!isset($_SESSION['lang'])) {
  	<div class='reference'>
  	Git repo : <a href=\"http://gitlab.minet.net/marlow/portail\ target=\"_blank\">
  					<img height=50em src='Images/bitbucket.png' alt='Bitbucket'>
- 				</a>	
+ 				</a>
  	</div>
- 	
+
 
  	<h3> wifi network deployment </h3>
  	<ul>
  		<li> Needs analysis </li>
- 		<li> Network planning and design </li> 
+ 		<li> Network planning and design </li>
  		<li> Documentaire and hardware solution election</li>
  		<li> Wlan Controller, PoE  switches and Wifi access points configuration</li>
  		<li> Crash tests and benchmarking </li>
@@ -122,7 +122,7 @@ else if (!isset($_SESSION['lang'])) {
  	</p>
 
 
- 	
+
  	";
 
 
@@ -138,9 +138,9 @@ else if (!isset($_SESSION['lang'])) {
 
  	$objectif = 'Career Objective';
  	$objectif_text = 'Information systems and Networks security expert';
- 	
+
  	$skills = 'Skills';
-	
+
 	$skill1 = 'Software and Web Development';
 	$skill1_text = 'Love (clean) coding. Rather back-end web apps developer.';
 
@@ -252,10 +252,10 @@ else if (!isset($_SESSION['lang'])) {
  	/*-----------------------------------------FRANÇAIS------------------------------------------------------*/
 
 
- 	default : 
+ 	default :
 
  	/*----------------Menu de Navigation----------------*/
- 	
+
 
  	$about='Présentation';
  	$projects='Projets';
@@ -270,7 +270,7 @@ else if (!isset($_SESSION['lang'])) {
  	"<p align=\"right\" class=\"general\">Étudiant en 2em année du cycle ingénieur à Télécom SudParis,
  	grande école d'ingénieur française spécialisée dans les systèmes d'informations.<br/>
  	J'ai intégré l'école après 2 années de classes préparatoires aux grandes écoles MPSI/MP* au lycée
- 	Saint Louis à Paris (VI) où j'ai suivi un cursus en spécialité informatique.<br/> 
+ 	Saint Louis à Paris (VI) où j'ai suivi un cursus en spécialité informatique.<br/>
  	Je porte un grand intérêt pour les sciences informatiques et plus particulièrement à la sécurité
  	des systèmes d'informations, un domaine qui fait de la voie d'approffondissement SSR
  	(Sécurité des systèmes et des réseaux) de Télécom SudParis mon premier voeu de poursuite
@@ -283,7 +283,7 @@ else if (!isset($_SESSION['lang'])) {
  		du déploiement, de la gestion et de l'entretien du réseau internet
  		de l'ensemble des résidences étudiantes et des locaux associatifs du campus mis à disposition par la
  		<a href=\"https://maisel.tem-tsp.eu/fr/\">Maisel SudParis</a>. <br/>
- 		Enfin, je suis expert Technique à <a href=\"http://sprint-je.com/\"> Sprint junior entreprise </a>, 
+ 		Enfin, je suis expert Technique à <a href=\"http://sprint-je.com/\"> Sprint junior entreprise </a>,
  		la junior entreprise des Écoles Télécom SudParis et Télécom École de management.
  	</p>";
 
@@ -307,11 +307,11 @@ else if (!isset($_SESSION['lang'])) {
 
  	$projects_content = "
  	<p>
- 	Vous pouvez consulter mes projets publiques ici : 
+ 	Vous pouvez consulter mes projets publiques ici :
  	<a id='bitbucket' href=\"http://bitbucket.org/a_hassala/\" target=\"_blank\">
  		<img src='Images/bitbucket.png' alt='Bitbucket'>
  	</a>
- 	
+
 
  	<h3> Refonte d'un portail captif : </h3>
  	<ul>
@@ -323,7 +323,7 @@ else if (!isset($_SESSION['lang'])) {
  	<div class='reference'>
  	Dépôt git : <a href=\"http://gitlab.minet.net/marlow/portail\ target=\"_blank\">
  					<img height=50em src='Images/bitbucket.png' alt='Bitbucket'>
- 				</a>	
+ 				</a>
  	</div>
 
  	<h3> Déploiement d'un réseau wifi dans une résidence étudiante </h3>
@@ -333,7 +333,7 @@ else if (!isset($_SESSION['lang'])) {
  		<li> Configuration Wlan Controller, switch PoE et bornes Wifi </li>
  		<li> Tests de stabilité </li>
  	</ul>
- 	
+
  	<div class='reference'>
  	Rapport : <a href=\"docs/rapport-wifi.pdf\"><img height=50em src='Images/report.png' alt='Wifi-U3'></a> (En cours de rédaction...)
  	</div>
@@ -360,7 +360,7 @@ else if (!isset($_SESSION['lang'])) {
  	</p>
 
 
- 	
+
  	";
 
 
@@ -377,9 +377,9 @@ else if (!isset($_SESSION['lang'])) {
 
  	$objectif = 'Objectif de carrière';
  	$objectif_text = 'Expert en sécurité des réseaux et des systèmes ';
- 	
+
  	$skills = 'Compétences';
-	
+
 	$skill1 = 'Développement web et logiciel ';
 	$skill1_text = 'Aime coder (proprement). Plutôt développeur back-end d\'applications web.';
 
