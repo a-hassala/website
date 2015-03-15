@@ -19,6 +19,7 @@ include_once 'header.php';
 include_once 'lang.php';
 ?>
 <body id ="contact-form">
+  <meta name="robots" content="noindex" />
 
  <div id="wrapper">
 
@@ -68,19 +69,19 @@ isset($_POST['email']) ? $email  = strip_tags($_POST['email']) : $email ='' ;
 $valid_email = preg_match('/^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/',$email) == 1 ? true : false ;
 isset($_POST['message']) ? $message  = strip_tags($_POST['message']) : $message ='' ;
 isset($_POST['submit']) ? $submit  = strip_tags($_POST['submit']) : $submit ='' ;
-$from = 'From: Contacts'; 
-$to = 'anasse@hassala.com'; 
+$from = 'From: Contacts';
+$to = 'anasse@hassala.com';
 $subject = 'Hello';
 $human = isset($_POST['human']) ? intval($_POST['human']) : '' ;
 $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 if ($submit) {
   if ($name != '' && $valid_email) {
-    if ($human == strval($_SESSION['a']+$_SESSION['b'])) {         
-      if (mail ($to, $subject, $body, $from)) { 
+    if ($human == strval($_SESSION['a']+$_SESSION['b'])) {
+      if (mail ($to, $subject, $body, $from)) {
         echo '<script>alert("Your message has been sent!");</script>';
-      } else { 
-        echo '<script>alert("Something went wrong, go back and try again!");</script>'; 
-      } 
+      } else {
+        echo '<script>alert("Something went wrong, go back and try again!");</script>';
+      }
     } else if ($submit && $human != strval($_SESSION['a']+$_SESSION['b'])) {
       echo '<script>alert("You answered the anti-spam question incorrectly!");</script>';
     }
