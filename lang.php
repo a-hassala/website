@@ -261,7 +261,7 @@ else if (!isset($_SESSION['lang'])) {
  	$projects='Projets';
  	$contacts='Contacts';
  	$cv='CV';
- 	$toggle = 'Basculer le Menue';
+ 	$toggle = 'Basculer le Menu';
 
  	/*---------------Text de présentation---------------*/
 
