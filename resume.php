@@ -1,12 +1,12 @@
 
-	
+
 
 </head>
 <body>
 
 <div id="doc2" class="yui-t7">
 	<div id="inner">
-	
+
 		<div id="hd">
 			<div class="yui-gc">
 				<div class="yui-u first">
@@ -89,7 +89,7 @@
 					</div><!--// .yui-gf-->
 
 					<div class="yui-gf">
-	
+
 						<div class="yui-u first">
 							<h2><?php echo $exp; ?></h2>
 						</div><!--// .yui-u -->
@@ -134,6 +134,8 @@
 							<h2><?php echo $education; ?></h2>
 						</div>
 						<div class="yui-u">
+							<h2>Télécom ParisTech, EURECOM - Sophia, France</h2>
+							<h3><?php echo $eurecom; ?>&mdash; </h3><br/>
 							<h2>Télécom SudParis - Evry, France</h2>
 							<h3><?php echo $tsp; ?>&mdash; </h3><br/>
 							<h2>Lycée Saint-Louis - Paris, France</h2>
@@ -158,4 +160,3 @@
 
 </body>
 </html>
-
